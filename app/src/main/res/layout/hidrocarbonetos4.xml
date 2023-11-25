@@ -1,0 +1,119 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hidrocarbonetos4">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:text="São compostos formados apenas de carbono (C) e de hidrogênio (H). Com exceção do metano, eles se formam sob condições de alta pressão e temperatura e sofrem combustão facilmente. Por isso, são importantes combustíveis dos séculos XX e XXI. O gás natural é metano."
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#6A6AB0"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        //header
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo" />
+        //imagem do header
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hidrocarbonetos"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+    //h1 gigante
+    //imagem
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout5"
+        android:layout_width="370dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+        //display block do texto de descrição da imagem
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O petróleo e o carvão mineral são misturas de hidrocarbonetos. Os hidrocarbonetos são divididos em diversas classes de compostos, segundo o tipo de cadeia formada e de ligações entre os carbonos, Veja a tabela abaixo de exemplo."
+            android:textAlignment="center"
+            android:fontFamily="@font/inter_medium"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+        //texto de descrição
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Tela inicial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Continuação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="260dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:srcCompat="@drawable/tela_de_infixo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

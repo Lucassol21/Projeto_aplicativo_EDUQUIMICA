@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eduquimica3Activity">
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:text="Na realidade, quase todos os compostos com carbono pertencem a esta classe de compostos, à exceção dos carbetos (CaC2, Ag2C2, entre outros), carbonatos e bicarbonatos (Na2CO3 e NaHCO3, respectivamente)."
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:text="Os compostos ou moléculas orgânicas são, as substâncias químicas que contêm na sua estrutura carbono e ligações covalentes C-H, ou substâncias que sejam derivados destas (por exemplo o CCl4, derivado do clorofórmio)."
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#6A6AB0"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        //header
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo" />
+            //imagem do header
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compostos Orgânicos"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        //h1 gigante
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        app:layout_constraintVertical_bias="0.093"
+        app:srcCompat="@drawable/os_compostos_orgc3a2nicos_podem_ser_representados_de_muitas_maneiras1" />
+        //imagem
+    <LinearLayout
+
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="310dp"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3">
+        //display block do texto de descrição da imagem
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RepresentaçãoOs compostos orgânicos podem ser representado de muitas maneiras. A tabela traz algumas delas."
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+        //texto de descrição
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Tela inicial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Continuação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".funsoes_organicas2">
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:text="Na realidade, quase todos os compostos com carbono pertencem a esta classe de compostos, à exceção dos carbetos (CaC2, Ag2C2, entre outros), carbonatos e bicarbonatos (Na2CO3 e NaHCO3, respectivamente)."
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="370dp"
+        android:layout_height="135dp"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Porém, esse é apenas um exemplo de função orgânica, existem ainda os hidrocarbonetos, cetonas, aldeídos, ácidos carboxílicos, aminas, amidas, éteres, ésteres, entre muitos outros.
+Para ver qual é o grupo funcional de cada uma dessas funções orgânicas, as suas principais propriedades, exemplos de compostos, suas aplicações e como é realizada sua nomenclatura, acesse os textos desta seção e das subseções especificadas abaixo."
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#6A6AB0"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        //header
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo" />
+        //imagem do header
+    </LinearLayout>
+    //h1 gigante
+
+    //imagem
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        //display block do texto de descrição da imagem
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observe que todos possuem o grupo funcional.
+            (apresentado na parte a baixo)"
+            android:textAlignment="center"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="14dp" />
+        //texto de descrição
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Tela inicial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Continuação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="295dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:srcCompat="@drawable/pasta_de_atomo" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="309dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/dhhxsamrufbtl5o5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
